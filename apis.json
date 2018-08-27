@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Authorities",
+	"description": "This is a repository of authorities APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/authorities.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://authorities.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "OpenRouteService",
+			"x-api-slug": "openrouteservice",
+			"description": "OpenStreetMap is the free wiki world map.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openrouteservice.jpg",
+			"humanURL": "http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22",
+			"baseURL": "https://cv.ap.org//",
+			"tags": "Authorities",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authorities/master/_listings/openrouteservice/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Authorities",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authorities/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Authorities",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authorities/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Authorities",
+	"include": [
+		{
+			"name": "OpenRouteService",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authorities/master/_listings/openrouteservice/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authorities/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authorities/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
